@@ -1,7 +1,7 @@
 /* Styles for site design (margins, background colors, etc.) */
 
 body {
-  margin: 0;
+  margin: 100px 0px 10px;
   background-color: ghostwhite;
 }
 
@@ -14,7 +14,6 @@ body {
 
 h1 {
   font-size: 48pt;
-  padding: 50px;
 }
 
 h2 {
@@ -25,11 +24,28 @@ p {
   font-size: 14;
 }
 
-/* Styles for specific elements */
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+/* Styles for title and navigation bar (top element) */
 
 .nav {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: darkgray;
   text-align: center;
+}
+
+#link-bar {
+  display: block;
+  height: 4em;
+}
+
+.nav-link {
+  padding: 1em;
+  background-color: lightgray;
+  position: relative;
+  top: 1.25em;
 }
