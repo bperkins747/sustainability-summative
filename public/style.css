@@ -1,4 +1,4 @@
-html {
-  background: red;
-  color: white;
+body {
+  background-color: red;
+  /* Test background color to be sure CSS is working */
 }
