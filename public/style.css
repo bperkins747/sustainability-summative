@@ -1,4 +1,35 @@
+/* Styles for site design (margins, background colors, etc.) */
+
 body {
-  background-color: red;
-  /* Test background color to be sure CSS is working */
+  margin: 0;
+  background-color: ghostwhite;
+}
+
+/* Styles for general site content */
+
+body {
+  font-family: 'Helvetica', sans-serif;
+  line-height: 1.5em;
+}
+
+h1 {
+  font-size: 48pt;
+  padding: 50px;
+}
+
+h2 {
+  font-size: 16pt;
+}
+
+p {
+  font-size: 14;
+}
+
+/* Styles for specific elements */
+
+.nav {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: darkgray;
+  text-align: center;
 }
