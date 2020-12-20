@@ -56,7 +56,7 @@ a {
 
 #top-bar {
   padding: 100px 0px 25px;
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/bb/Shady_Woods_%28204953769%29.jpeg');
+  background-image: url('./images/header_bg.jpg');
   /* Shady Woods by Jarrett Begick is licensed under CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/deed.en) */
   background-size: 100%;
 }
