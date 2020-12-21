@@ -136,6 +136,7 @@ a {
 .content-segment .content-image {
   display: block;
   margin: auto;
+  width: 25%;
   border: 2px solid darkgray;
   font-size: 10;
 }
