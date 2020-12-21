@@ -93,7 +93,7 @@ a {
   background-color: #8ba67e;
 }
 
-/* Rearranges links for devices in portrait mode */
+/* Rearranges navigation links for devices in portrait mode */
 
   @media all and (orientation:portrait) {
     #link-bar {
@@ -118,10 +118,11 @@ a {
   font-size: 24pt;
   font-weight: bold;
   background-color: darkgray;
-  padding: 25px 0px 25px 1%;
+  padding: 20px 0px 20px 1%;
   margin-top: 0px;
   margin-bottom: 0px;
   width: 99%;
+  line-height: 1.25em;
 }
 
 .content-segment p {
