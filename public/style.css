@@ -68,6 +68,17 @@ a {
   padding: 10px;
 }
 
+/* Sets header width wider for devices in portrait mode, such as smartphones */
+
+  @media all and (orientation:portrait) {
+    .header h1 {
+      width: 100%;
+    }
+    .header h2 {
+      width: 100%;
+    }
+  }
+
 #link-bar {
   height: 4em;
 }
@@ -81,6 +92,18 @@ a {
 .nav-link:hover {
   background-color: #8ba67e;
 }
+
+/* Rearranges links for devices in portrait mode */
+
+  @media all and (orientation:portrait) {
+    #link-bar {
+      height: 15em;
+    }
+    .nav-link {
+      display: block;
+      margin: 10px 0px 10px;
+    }
+  }
 
 /* Styles for content segments */
 
@@ -117,21 +140,13 @@ a {
   font-size: 10;
 }
 
-/* Sets image width on devices in landscape mode, such as a desktop or tablet */
+/* Sets image width wider on devices in portrait mode */
 
-@media all and (orientation:landscape) {
-  .content-segment .content-image {
-    width: 25%;
+  @media all and (orientation:portrait) {
+    .content-segment .content-image {
+      width: 90%;
+    }
   }
-}
-
-/* Sets image width on devices in portrait mode, such as a smartphone */
-
-@media all and (orientation:portrait) {
-  .content-segment .content-image {
-    width: 90%;
-  }
-}
 
 .content-segment .content-image img {
   width: 100%;
