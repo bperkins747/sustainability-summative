@@ -30,7 +30,7 @@ a {
 /* Styles for title and navigation bar (top element, header) */
 
 .header {
-  border: 2px solid darkgray;
+  border-bottom: 2px solid darkgray;
   text-align: center;
 }
 
