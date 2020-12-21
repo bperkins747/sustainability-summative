@@ -68,14 +68,14 @@ a {
   padding: 10px;
 }
 
-/* Sets header width wider for devices in portrait mode, such as smartphones */
+/* Sets header width wider for devices with screen widths lower than 1280 pixels */
 
-  @media all and (orientation:portrait) {
+  @media all and (max-width: 1279px) {
     .header h1 {
-      width: 100%;
+      width: 95%;
     }
     .header h2 {
-      width: 100%;
+      width: 95%;
     }
   }
 
@@ -93,9 +93,9 @@ a {
   background-color: #8ba67e;
 }
 
-/* Rearranges navigation links for devices in portrait mode */
+/* Rearranges navigation links for devices with screen widths lower than 1280 pixels */
 
-  @media all and (orientation:portrait) {
+  @media all and (max-width: 1279px) {
     #link-bar {
       height: 15em;
     }
@@ -137,14 +137,14 @@ a {
 .content-segment .content-image {
   display: block;
   margin: auto;
-  width: 25%;
+  width: 40%;
   border: 2px solid darkgray;
   font-size: 10;
 }
 
-/* Sets image width wider on devices in portrait mode */
+/* Sets image width wider on devices with screen widths lower than 1280 pixels */
 
-  @media all and (orientation:portrait) {
+  @media all and (max-width: 1279px) {
     .content-segment .content-image {
       width: 90%;
     }
