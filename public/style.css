@@ -30,9 +30,7 @@ a {
 /* Styles for title and navigation bar (top element, header) */
 
 .header {
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: darkgray;
+  border: 2px solid darkgray;
   text-align: center;
 }
 
@@ -90,16 +88,17 @@ a {
   background-color: #dbdbdb;
   width: 80%;
   margin: 10px auto;
+  padding-bottom: 10px;
 }
 
 .content-segment h3 {
   font-size: 24pt;
   font-weight: bold;
   background-color: darkgray;
-  width: 99%;
   padding: 25px 0px 25px 1%;
   margin-top: 0px;
   margin-bottom: 0px;
+  width: 99%;
 }
 
 .content-segment p {
@@ -109,4 +108,37 @@ a {
 
 .content-segment .in-text-citation {
   color: black;
+}
+
+.content-segment .content-image {
+  display: block;
+  margin: auto;
+  border: 2px solid darkgray;
+  font-size: 10;
+}
+
+/* Sets image width on devices in landscape mode, such as a desktop or tablet */
+
+@media all and (orientation:landscape) {
+  .content-segment .content-image {
+    width: 25%;
+  }
+}
+
+/* Sets image width on devices in portrait mode, such as a smartphone */
+
+@media all and (orientation:portrait) {
+  .content-segment .content-image {
+    width: 90%;
+  }
+}
+
+.content-segment .content-image img {
+  width: 100%;
+  border-top: 2px solid darkgray;
+  border-bottom: 2px solid darkgray;
+}
+
+.content-segment .content-image .image-citation {
+  margin: 0px 5px 0px;
 }
