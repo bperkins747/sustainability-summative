@@ -140,6 +140,7 @@ a {
   width: 40%;
   border: 2px solid darkgray;
   font-size: 10;
+  overflow-wrap: break-word;
 }
 
 /* Sets image width wider on devices with screen widths lower than 1280 pixels */
